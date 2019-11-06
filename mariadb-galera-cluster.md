@@ -1,27 +1,38 @@
 # Galera Cluster installation in CentOS 7
 
-# Prerequisites
-# Server minimum 1GBRAM, 1CPUCore
+### Prerequisites
 
-# Aplication Details
-# MariaDB Version
-mysql -e 'show global variables like "version";'
+Server minimum 
+      1GB RAM 
+      1 CPUCore
+
+### Aplication Details
+#### MariaDB Version
+
+
+```
+[root@galera-1 ~]# mysql -e 'show global variables like "version";'
 +---------------+----------------+
 | Variable_name | Value          |
 +---------------+----------------+
 | version       | 10.4.9-MariaDB |
 +---------------+----------------+
+```
 
-# Server Details
-# 192.168.86.133 galera-1 galera-1.example.com
-# 192.168.86.134 galera-2 galera-2.example.com
-# 192.168.86.135 galera-3 galera-3.example.com
+
+### Server Details
+
+- 192.168.86.133        galera-1    galera-1.example.com
+- 192.168.86.134        galera-2    galera-2.example.com
+- 192.168.86.135        galera-3    galera-3.example.com
 
 # Updating the server
-yum update
+
+`yum update`
 
 # Install syncing software for database synchronization
-yum -y install rsync
+
+`yum -y install rsync`
 
 # Create a repo "mariadb.repo" to install mariadb server
 vi /etc/yum.repos.d/mariadb.repo
