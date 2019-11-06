@@ -11,7 +11,7 @@ Server minimum
 
 
 ```
-[root@galera-1 ~]# mysql -e 'show global variables like "version";'
+[galera-1 ~]# mysql -e 'show global variables like "version";'
 +---------------+----------------+
 | Variable_name | Value          |
 +---------------+----------------+
@@ -28,22 +28,25 @@ Server minimum
 
 # Updating the server
 
-`yum update`
+`[galera-1 ~]# yum update`
 
 # Install syncing software for database synchronization
 
-`yum -y install rsync`
+`[galera-1 ~]# yum -y install rsync`
 
 # Create a repo "mariadb.repo" to install mariadb server
-vi /etc/yum.repos.d/mariadb.repo
 
-# MariaDB 10.4 CentOS repository list - created 2019-11-05 15:56 UTC
-# http://downloads.mariadb.org/mariadb/repositories/
+`[galera-1 ~]# vi /etc/yum.repos.d/mariadb.repo`
+
+``` bash
+# [MariaDB](http://downloads.mariadb.org/mariadb/repositories/) 10.4 CentOS repository list - created 2019-11-05 15:56 UTC
+
 [mariadb]
 name = MariaDB
 baseurl = http://yum.mariadb.org/10.4/centos7-amd64
 gpgkey=https://yum.mariadb.org/RPM-GPG-KEY-MariaDB
 gpgcheck=1
+```
 
 # Install mariadb server
 sudo yum install MariaDB-server MariaDB-client galera-4
