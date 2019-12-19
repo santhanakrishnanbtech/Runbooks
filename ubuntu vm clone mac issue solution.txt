@@ -1,3 +1,6 @@
+# Create a script "mac.sh" and add below line
+# Run it in every clone on first boot 
+
 #!/bin/bash
 
 sudo truncate -s 0 /etc/machine-id
