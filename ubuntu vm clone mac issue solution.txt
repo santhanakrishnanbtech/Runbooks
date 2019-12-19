@@ -1,0 +1,9 @@
+#!/bin/bash
+
+sudo truncate -s 0 /etc/machine-id
+
+sudo rm /var/lib/dbus/machine-id
+
+sudo ln -s /var/lib/dbus/machine-id /etc/machine-id
+
+sudo reboot
