@@ -10,7 +10,7 @@
 - [Stop all running  containers](#stop-all-running-containers)
 
 
-### *Docket Image Backup*
+### *Docker Image Backup*
 
 Backup your docker custom images to ducker hub repository
 ```shell
