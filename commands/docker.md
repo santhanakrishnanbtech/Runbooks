@@ -1,6 +1,9 @@
-### Docker Commands
+## Docker Commands
+> ### Index
+- [Remove all the images]().
 
-##### Remove all  `docker images`
+
+##### Remove all the docker images
 ```shell
 docker image rm $(docker images | awk '{print $3}')
 ```
