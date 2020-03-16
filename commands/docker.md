@@ -7,19 +7,26 @@
 - [Stop all running  containers](#remove-all-the-docker-images)
 
 
-##### *Image Remove*
+### *Image Remove*
+Removes image from the docker machine.
 ```
+docker image rm <imageID>
 docker rmi <imageId>
 ```
-##### *Kill Container*
+### *Kill Container*
+
+To kill container which are non responsive
 ```shell
 docker kill <containerId>
 ```
-##### *Remove all the docker images*
+### *Remove all the docker images*
+
+Remove all the docker images at the same time
 ```shell
 docker image rm $(docker images | awk '{print $3}')
 ```
-##### *Stop all running containers*
+### *Stop all running containers*
+Stop all running containers at the same time
 ```shell
 docker stop $(docker ps | grep -ai up | awk '{ print $1}')
 ```
