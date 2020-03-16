@@ -1,8 +1,8 @@
 ## Docker Commands
 
 ##### Index
-- [Remove all the docker images](#remove-all-the-docker-images)
-- [Remove all the docker images](#remove-all-the-docker-images)
+*[Remove all the docker images](#remove-all-the-docker-images)*
+*[Remove all the docker images](#remove-all-the-docker-images)*
 
 ##### *Remove all the docker images*
 ```shell
