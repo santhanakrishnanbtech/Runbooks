@@ -1,6 +1,40 @@
 ## Docker Commands
-> ### Index
-- [Remove all the images]().
+|Index|
+|:---|
+|[Remove all the images](#remove-all-the-docker-images).|
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ##### Remove all the docker images
