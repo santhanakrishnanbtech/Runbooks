@@ -12,6 +12,3 @@ docker image rm $(docker images | awk '{print $3}')
 ```shell
 docker stop $(docker ps | grep -ai up | awk '{ print $1}')
 ```
-
-- [ ] \(Optional) Open a followup issue
-- [ ] Open a pull request
