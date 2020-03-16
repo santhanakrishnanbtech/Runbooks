@@ -1,12 +1,25 @@
 ## Docker Commands
 
 #### Index
+- [Docker image backup](#docker-image-backup)
 - [Image Remove](#image-remove)
 - [Kill Container](#kill-container)
+- [Docker Login](#docker-login)
+- [Remove all the docker containers](#remove-all-the-docker-containers)
 - [Remove all the docker images](#remove-all-the-docker-images)
-- [Stop all running  containers](#remove-all-the-docker-images)
+- [Stop all running  containers](#stop-all-running-containers)
 
 
+### *Docket Image Backup*
+
+Backup your docker custom images to ducker hub repository
+```shell
+docker commit <containerId> <accountId><imageName>
+docker images
+docker run -it -d <imageName>
+docker push <accountId><imageName>
+
+```
 ### *Image Remove*
 Removes image from the docker machine.
 ```
@@ -18,6 +31,18 @@ docker rmi <imageId>
 To kill container which are non responsive
 ```shell
 docker kill <containerId>
+```
+### *Docker Login*
+
+Login to your personnal repository
+```shell
+docker login
+```
+### *Remove all the docker containers*
+
+Remove all the docker images at the same time
+```shell
+docker rm -f $(docker ps -a -q)
 ```
 ### *Remove all the docker images*
 
