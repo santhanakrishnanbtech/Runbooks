@@ -4,6 +4,9 @@
 | [Remove all the images](#remove-all-the-docker-images).|
 | [Stop all running containers](#stop-all-running-containers).|
 
+> *Index*
+- *[Remove all the docker images](#remove-all-the-docker-images)*
+
 ##### *Remove all the docker images*
 ```shell
 docker image rm $(docker images | awk '{print $3}')
