@@ -1,10 +1,16 @@
 ## Docker Commands
 
 #### Index
+- [Image Remove](#image-remove)
+- [Kill Container](#kill-container)
 - [Remove all the docker images](#remove-all-the-docker-images)
 - [Stop all running  containers](#remove-all-the-docker-images)
-- [Kill Container](#kill-container)
 
+
+##### *Image Remove*
+```
+docker rmi <imageId>
+```
 ##### *Kill Container*
 ```shell
 docker kill <containerId>
