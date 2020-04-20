@@ -3,3 +3,7 @@
 ```
 sudo yum install dos2unix -y
 ```
+> Host key checking
+```
+echo "StrictHostKeyChecking no" >> ~/.ssh/config
+```
