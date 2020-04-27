@@ -75,6 +75,9 @@ ___
 ###### Package Application ```python build``` for Linux [KINK](https://opensource.com/article/20/4/package-python-applications-linux)
 ###### ```Postfix``` Send only ```SMTP``` Server [LINK](https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-postfix-as-a-send-only-smtp-server-on-ubuntu-18-04)
 ###### ```Python``` command line argument [LINK](https://towardsdatascience.com/how-to-master-python-command-line-arguments-5d5ad4bcf985)
+###### PEM Keys [LINK](https://www.solutionclub.in/how-to-create-pem-file-and-access-linux-server-via-pem-file.html)
+###### PEM Keys [LINK](https://therandombits.com/2016/01/create-pem-file-for-your-linux-server/)
+###### PEM Keys [LINK](https://linuxaws.wordpress.com/2017/07/17/how-to-generate-pem-file-to-ssh-the-server-without-password-in-linux/)
 ### R
 ###### ```redis``` replication cluster [link](https://www.tecmint.com/setup-redis-replication-in-centos-8/)
 ###### ```reset root password``` in debian [link](https://www.tecmint.com/reset-forgotten-root-password-in-debian/)
