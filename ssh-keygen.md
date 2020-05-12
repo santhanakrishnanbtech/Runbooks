@@ -1,7 +1,10 @@
 ### SSH certificates
 With SSH certificates, you generate a certificate authority (CA) and then use this to issue and cryptographically sign certificates 
 which can authenticate users to hosts, or hosts to users. You can generate a keypair using the ```ssh-keygen``` command, like this:
-
+```
+$ RSA
+ssh-keygen -m PEM -t rsa -b 4096 -f host_ca -C "your_email@example.com"
+```
 ```shell
 $ ssh-keygen -t rsa -b 4096 -f host_ca -C host_ca
 Generating public/private rsa key pair.
