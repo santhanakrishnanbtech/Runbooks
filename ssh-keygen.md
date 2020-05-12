@@ -4,6 +4,9 @@ which can authenticate users to hosts, or hosts to users. You can generate a key
 ```
 $ RSA
 ssh-keygen -m PEM -t rsa -b 4096 -f host_ca -C "your_email@example.com"
+$ RSA -> PEM
+openssl rsa -in ~/.ssh/id_rsa -outform pem > id_rsa.pem
+chmod 600 id_rsa.pem
 ```
 ```shell
 $ ssh-keygen -t rsa -b 4096 -f host_ca -C host_ca
