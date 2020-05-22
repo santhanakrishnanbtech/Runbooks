@@ -2,12 +2,23 @@
 ### A
 ###### Azure Training [link](https://www.youtube.com/watch?v=0bNFkI_0jhc&feature=youtu.be)
 ###### AWS SAA-C002 [link](https://medium.com/@yashvgec1618/how-i-cleared-the-aws-solutions-architect-associate-c02-exam-a83b5590e401)
+---
+### Project Examples
+###### Online-Movie-Ticket-Booking-Portal [link](https://github.com/karantatiwala/Online-Movie-Ticket-Booking-Portal)
+###### Beginners guide to gateways and proxies [link](https://dev.to/peterj/beginners-guide-to-gateways-and-proxies-1npn)
+###### Deploy a MongoDB Replica Set in a DevOps fashion style (Infrastructre as Code) [link](https://github.com/Crizstian/mongo-replica-hashicorp-stack/blob/v0.1/README.md)
+###### Terraform vault consul deployment [link](https://github.com/Crizstian/terraform-vault-consul-deployment)
+###### Example Voting app [link](https://github.com/Crizstian/example-voting-app)
+###### Cinema Service Example [link](https://github.com/Crizstian/cinema-microservice)
+###### Deploy Nodejs microservices to a Docker Swarm Cluster [Docker from zero to hero] [link](https://towardsdatascience.com/deploy-a-nodejs-microservices-to-a-docker-swarm-cluster-docker-from-zero-to-hero-464fa1369ea0)
 ___
 ### Others
 ### A
+###### AWS Tutorial [link](https://www.youtube.com/user/awstutorialseries)
 ###### ```AWS``` classic load balancer [link](https://www.youtube.com/watch?v=CwKQaOs-0K4)
 ###### ```AWS``` local stack [link](https://medium.com/@sparth510.ps/explore-localstack-3c7566dcd8fa)
 ###### ```AWS Lambda``` basics [link](https://medium.com/@wikiabhi/aws-lambda-getting-started-with-basics-c0a486242e76)
+###### ```AWS SAA-C02``` [link](https://oschvr.com/posts/how-i-got-my-aws-csaa/)
 ###### ```Ansible``` learning jeff geerling [link](https://opensource.com/article/20/4/ansible-news-edition-nine?utm_campaign=intrel)
 ###### ```Ansible``` 101 live sessions [link](https://www.youtube.com/watch?v=goclfp6a2IQ)
 ###### ```Ansible``` news [link](https://opensource.com/article/20/4/ansible-news-edition-nine?utm_campaign=intrel)
@@ -21,7 +32,10 @@ ___
 ###### Networking in ```AWS``` [LINK](https://dev.to/napicella/aws-networking-cheat-sheet-eip-eni-vpc-etc-139m)
 ###### AntiMalware [LINK](https://www.redhat.com/sysadmin/3-antimalware-solutions)
 ###### Ansible Vault [LINK](https://www.youtube.com/watch?v=_z0cbNP0i2g&feature=youtu.be)
+###### Ansible playbook awesomeness [link](https://www.youtube.com/watch?v=TB7zBMkzSnA)
+###### Ansible redhat automate microsoft azure [link](https://www.redhat.com/en/about/videos/ansible-automate-microsoft-azure)
 ### C
+###### CI/CD best practices [link](https://opensource.com/article/20/5/cicd-best-practices)
 ###### How to Setup a ```Concourse``` CI Server [link](https://dev.to/ruanbekker/how-to-setup-a-concourse-ci-server-597g)
 ###### Resetting ```Concourse``` worker to a “clean” state [link](https://discuss.concourse-ci.org/t/resetting-a-worker-to-a-clean-state/64)
 ###### ```Concourse``` Pipeline Samples [link](https://github.com/vmwarepivotallabs/concourse-pipeline-samples/tree/master/concourse-pipeline-patterns)
@@ -33,7 +47,13 @@ ___
 ###### ```Consul``` Part 1: Service discovery, the easy way [LINK](https://www.youtube.com/watch?v=xyU8v5RO_kQ&feature=youtu.be)
 ###### Setup Consul Cluster [LINK](https://computingforgeeks.com/how-to-install-consul-cluster-18-04-lts/)
 ###### Consul Guide Part 1 [LINK](https://www.velotio.com/engineering-blog/hashicorp-consul-guide-1) Part 2 [LINK](https://www.velotio.com/engineering-blog/hashicorp-consul-guide-2)
+###### How To Setup Consul Tutorial [link](https://www.youtube.com/watch?v=iVKveB-2bGQ&feature=youtu.be)
+###### Consul Setup (Web UI + Service + Health Checks) [link](https://www.youtube.com/watch?v=A4UsGg0U8YA&feature=youtu.be)
+###### Consul Cluster - A Hands On Journey [link](https://www.youtube.com/watch?v=O0DF8WkZ6DQ&feature=youtu.be)
 ### D
+###### Docker Swarm Visualizer [link](https://github.com/dockersamples/docker-swarm-visualizer)
+###### Docker container vunerability scanner [link](https://github.com/aquasecurity/trivy)
+###### Docker Nginx reverse proxy [link](https://www.youtube.com/watch?v=hxngRDmHTM0)
 ###### ```Docker``` Tutorial [link](https://github.com/collabnix/dockerlabs)
 ###### ```Docker``` training [link](https://www.youtube.com/watch?v=-lpDRE3Fcj0)
 ###### ```Docker``` News [link](https://www.freecodecamp.org/news/tag/docker/)
@@ -42,14 +62,22 @@ ___
 ###### DevOps Tutorial for Beginners [LINK](https://www.youtube.com/watch?v=hQcFE0RD0cQ&feature=youtu.be)
 ###### DU Commands options [LINK](https://www.redhat.com/sysadmin/du-command-options)
 ### G
+###### Local ```git``` server [link](https://thenewstack.io/how-to-set-up-the-http-git-server-for-private-projects/)
 ###### Learn ```GIT``` on 100 Seconds [link](https://www.youtube.com/watch?v=hwP7WQkmECE&feature=youtu.be)
 ###### Grafana dual axis graphs [link](https://grafana.com/blog/2020/03/10/learn-grafana-how-to-use-dual-axis-graphs/)
 ###### Beginners guide to gateways and proxies [LINK](https://www.learncloudnative.com/blog/2020-04-25-beginners-guide-to-gateways-proxies/)
 ### H
 ###### Setup ```vault``` [LINK](https://www.youtube.com/watch?v=hEyPfheRFoc&feature=youtu.be)
+###### Securing Ansible Deployments With HashiCorp Vault [link](https://www.youtube.com/watch?v=wCTgi6fKXcM&feature=youtu.be)
+###### hack [link](https://khaoticdev.net/?p=820)
+###### Best Practices for Using HashiCorp Terraform with HashiCorp Vault [link](https://www.youtube.com/watch?v=fOybhcbuxJ0&feature=youtu.be)
+###### Vault 1.0: How to Auto-Unseal and Other New Features [link](https://www.youtube.com/watch?v=x9s0Uk9d510&feature=youtu.be)
+###### How HashiCorp Vault Solves The Top 3 Cloud Security Challenges [link](https://www.youtube.com/watch?v=3q9_gxqkZA8&feature=youtu.be)
+###### HashiCorp Terraform and Consul 101 [link](https://www.youtube.com/watch?v=UGbjg4xaZic&feature=youtu.be)
 ### I
 ###### How To Install and Configure Elasticsearch on Ubuntu 18.04 [LINK](https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-elasticsearch-on-ubuntu-18-04)
 ### J
+###### ```jenkins``` and ```docker``` automation [link](https://medium.com/@bhandaripallavi.98/real-world-automation-using-power-of-devops-jenkins-docker-and-git-a0f3d1629ba0)
 ###### ```Jenkins``` and ```NodeJS``` Project [LINK](https://codeforgeek.com/continuous-integration-deployment-jenkins-node-js/)
 ###### ```Jeff Geerling``` [link](https://github.com/geerlingguy)
 ###### ```Jenkins``` full tutorial [link](https://www.youtube.com/watch?v=FX322RVNGj4&feature=youtu.be)
@@ -57,15 +85,21 @@ ___
 ### K
 ###### ```kubernetes``` GUI tools [link](https://www.virtuallyghetto.com/2020/04/useful-interactive-terminal-and-graphical-ui-tools-for-kubernetes.html)
 ###### Kubernetes Fast track [LINK](https://www.freshercooker.in/free-ultimate-kubernetes-certification-course/)
+###### Kubernetes cloud native image repository [link](https://goharbor.io/)
 ### L
 ###### ```linux``` package uninstall [link](https://www.cyberciti.biz/faq/linux-uninstall-package-software-using-the-cli/)
 ###### Fabio - A Stateless Load Balancer [LINK](https://www.youtube.com/watch?v=fJ3qHbgZsU0&feature=youtu.be)
+###### Using ```Let Ecrypt``` in ubuntu 20.04 [link](https://www.digitalocean.com/community/tutorials/how-to-secure-nginx-with-let-s-encrypt-on-ubuntu-20-04)
 ### M
 ###### Monolith to Microservices [link](https://www.youtube.com/watch?v=rzjy2DDPwio)
+###### Monitoring Vault and Consul [link](https://github.com/Crizstian/vault-consul-monitoring)
 ### N
 ###### ```NodeJS``` Tutorial Video [link](https://www.youtube.com/watch?v=hQd4TCGB_nE)
 ###### Damn Vulnerable NodeJS Application (```DVNA```) is a simple NodeJS application [LINK](https://github.com/appsecco/dvna)
 ###### Setup ```NGINX``` as a ```HAPROXY``` on Centos 8 [LINK](https://www.tecmint.com/setup-nginx-haproxy-load-balancer-in-centos-8/)
+###### NGINX Reverse Proxy with Docker Compose [link](https://dzone.com/articles/how-to-nginx-reverse-proxy-with-docker-compose)
+### O
+###### Octotree github file manager plugin [link](https://levelup.gitconnected.com/how-to-browse-project-files-on-github-as-if-you-are-browsing-in-your-ide-1022f153af42)
 ### P
 ###### ```PEM``` key creation [LINK](https://therandombits.com/2016/01/create-pem-file-for-your-linux-server/)
 ###### FF ```Proxy``` [link](https://github.com/TimeToogo/ff-proxy/blob/master/README.md)
@@ -82,10 +116,12 @@ ___
 ###### ```redis``` replication cluster [link](https://www.tecmint.com/setup-redis-replication-in-centos-8/)
 ###### ```reset root password``` in debian [link](https://www.tecmint.com/reset-forgotten-root-password-in-debian/)
 ### S
+###### ```systemd``` troubleshooting [link](https://opensource.com/article/20/5/systemd-troubleshooting-tool)
 ###### AWS Intrusion detection tool ```Skywrapper``` Excel spreadsheet that lists all the currently active temporary tokens. [LINK](https://www.zdnet.com/article/new-tool-detects-aws-intrusions-where-hackers-abuse-self-replicating-tokens/)
 ###### ```Sonarqube``` setup for ```Javascript``` [LINK](https://medium.com/@deeksha.sharma25/set-up-sonarqube-for-javascript-application-c0f605146998)
 ###### ```Sonarqube``` with ```NodeJS``` and ```Jest``` [LINK](https://dev.to/rafaeldias97/nodejs-express-docker-jest-sonarqube-45me)
 ### T
+###### terraoform ansible packer digital ocean [Aroan Krauss](https://thecodeboss.dev/) [git](https://github.com/alkrauss48 ) [link](https://www.youtube.com/watch?v=pkEezNSFWtA&feature=youtu.be)
 ###### salizzar/```terraform```-recipes [link](https://github.com/salizzar/terraform-recipes/tree/master/amazon/swarm-stack)
 ###### ```terraform``` VPN between AWS and Azure [link](https://dev.to/jonatasbaldin/terraform-for-a-highly-available-vpn-between-aws-and-azure-39j5)
 ###### ```terraform``` provision ec2 on aws [link](https://www.youtube.com/watch?v=RA1mNClGYJ4&feature=youtu.be)
@@ -97,7 +133,9 @@ ___
 ###### Setting up a server for deployment with Docker and ```Traefik``` [LINK](https://www.youtube.com/watch?v=GR8-Fgkyzxg&feature=youtu.be)
 ###### Terraform and Ansible Dream Team [LINK](https://www.youtube.com/watch?v=hznd1dBuZO0&feature=youtu.be)
 ###### HASHICORP VAULT AND CONSUL ON AWS WITH TERRAFORM [LINK](https://www.bogotobogo.com/DevOps/Terraform/Hashicorp-Vault-and-Consul-on-AWS-with-Terraform.php)
+###### Writing Good Terraform & Terraform Enterprise [link](https://www.youtube.com/watch?v=r--A1iaulu0&feature=youtu.be)
 ### U
+###### Add ```swap``` on ubuntu [link](https://linuxize.com/post/how-to-add-swap-space-on-ubuntu-20-04/)
 ###### Upgrade ```ubuntu``` in CMD line [link](https://fossbytes.com/upgrade-ubuntu-using-command-line-terminal/)
 ###### Checking open ports in ```Ubuntu``` Server [LINK](https://www.ubuntupit.com/how-to-check-all-the-open-ports-in-your-linux-system/)
 ### V
@@ -113,7 +151,9 @@ ___
 ###### * Enabling Enterprise Security in The Cloud with AWS and HashiCorp Vault [LINK](https://www.youtube.com/watch?v=9HdY7nPqRkk&feature=youtu.be)
 ###### * Vault docker tutorial [LINK](https://www.youtube.com/watch?v=ClsL6EwnGco&feature=youtu.be)
 ###### * Install and Configure Hashicorp Vault Server [LINK](https://computingforgeeks.com/install-and-configure-vault-server-linux/)
+###### VIM Tips [link](https://www.freecodecamp.org/news/7-vim-tips-that-changed-my-life/)
 ### W
 ###### Get windows product key command line [link](https://www.howtogeek.com/660517/how-to-find-your-windows-10-product-key-using-the-command-prompt/)
+###### Wireguard VPN server Ubuntu [link](https://www.cyberciti.biz/faq/debian-10-set-up-wireguard-vpn-server/)
 ### Y
 ###### ```YAML``` Full Tutorial [LINK](https://www.youtube.com/watch?v=cdLNKUoMc6c&feature=youtu.be)
