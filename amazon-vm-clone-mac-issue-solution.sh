@@ -1,6 +1,13 @@
 #!/usr/bin/env bash
 set -x -e
 
+# login as root
+# create mac.sh in /root/mac.sh
+# chmod +x /root/mac.sh
+# echo "@reboot root /bin/bash /root/mac.sh" >> /etc/crontab
+# shutdown and start cloning
+# when main machine restarted remember to write the crontab line
+
 # changing network mac address
 cd /etc/sysconfig/network-scripts/
 oldmac=$(grep HWADDR ifcfg-eth0|cut -c 8-)
@@ -22,6 +29,3 @@ sudo sed -i 's/ADDRESS      :/ADDRESS      : '$IP'/g' /etc/issue
 sudo echo -e "\n" >> /etc/issue
 sudo reboot
 #rm -f $0
-
-
-# echo "@reboot root /bin/bash /root/mac.sh" >> /etc/crontab
