@@ -24,7 +24,7 @@ EOF
 
 read -p "Enter the IP address : " IPADDR
 read -p "Enter the GATEWAY address : " GATEWAY
-read -p "Enter the DNS address : " 
+read -p "Enter the DNS address : " DNS
 sudo sed -i 's/IPADDR=/IPADDR='$IP'/g' $location/ifcfg-eth0
 sudo sed -i 's/GATEWAY=/GATEWAY='$GATEWAY'/g' $location/ifcfg-eth0
 sudo sed -i 's/DNS1=/DNS1='$DNS'/g' $location/ifcfg-eth0
