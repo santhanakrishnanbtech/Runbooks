@@ -25,7 +25,7 @@ EOF
 read -p "Enter the IP address : " IPADDR
 read -p "Enter the GATEWAY address : " GATEWAY
 read -p "Enter the DNS address : " DNS
-sudo sed -i 's/IPADDR=/IPADDR='$IP'/g' $location/ifcfg-eth0
+sudo sed -i 's/IPADDR=/IPADDR='$IPADDR'/g' $location/ifcfg-eth0
 sudo sed -i 's/GATEWAY=/GATEWAY='$GATEWAY'/g' $location/ifcfg-eth0
 sudo sed -i 's/DNS1=/DNS1='$DNS'/g' $location/ifcfg-eth0
 
@@ -35,7 +35,7 @@ sudo sed -i 's/HWADDR='$oldmac'/HWADDR='$newmac'/g' $location/ifcfg-eth0
 
 rm -rf /etc/issue
 cp /root/issue /etc/issue
-sudo sed -i 's/ADDRESS      :/ADDRESS      : '$IP'/g' /etc/issue
+sudo sed -i 's/ADDRESS      :/ADDRESS      : '$IPADDR'/g' /etc/issue
 sudo echo -e "\n" >> /etc/issue
 
 # Disable ipv6
