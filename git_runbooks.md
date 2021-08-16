@@ -1,5 +1,4 @@
-### Create am empty branch with no history
-ref: https://stackoverflow.com/questions/34100048/create-empty-branch-on-github/55943394
+### Create am empty branch with no history [reference](https://stackoverflow.com/questions/34100048/create-empty-branch-on-github/55943394)
 
 ```shell
 # go to existing repo folder
