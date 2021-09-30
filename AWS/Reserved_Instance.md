@@ -1,10 +1,11 @@
 
 ### Purchase
+https://www.youtube.com/watch?v=6oGgPOlnf8g
 #### Standard RI
 https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ri-market-concepts-buying.html#ri-buying-standard
 #### Convertible RI
 https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ri-market-concepts-buying.html#ri-buying-convertible
-#### Queries
+### Queries
 1. How are AWS Reserved Instances billed?
 - 1 year and 3 year billing
 - 75% for upfront
