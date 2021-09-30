@@ -1,3 +1,12 @@
+### Pricing
+https://aws.amazon.com/savingsplans/faq/
+https://aws.amazon.com/rds/postgresql/pricing/
+https://aws.amazon.com/rds/pricing/
+https://www.amazonaws.cn/en/rds/pricing/
+https://docs.amazonaws.cn/en_us/AmazonRDS/latest/UserGuide/USER_WorkingWithReservedDBInstances.html
+
+#### Price projection
+https://aws.amazon.com/ec2/pricing/reserved-instances/pricing/
 
 ### Purchase
 https://www.youtube.com/watch?v=6oGgPOlnf8g
@@ -5,6 +14,7 @@ https://www.youtube.com/watch?v=6oGgPOlnf8g
 https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ri-market-concepts-buying.html#ri-buying-standard
 #### Convertible RI
 https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ri-market-concepts-buying.html#ri-buying-convertible
+
 ### Queries
 1. How are AWS Reserved Instances billed?
 - 1 year and 3 year billing
@@ -56,6 +66,7 @@ https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ri-market-concepts-buying.ht
 
 12. When we upgrade or downgrade instance type, what will be the impact on the RI pricing?
 - ???
+- Only upgrade and No downgrade
 
 13. Do you have docs or videos for implementing the RI in organization level account ?
-- 
+- Find above inline
