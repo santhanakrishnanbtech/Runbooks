@@ -8,7 +8,7 @@ IP_DEVICE=$(ip r | grep kernel | awk '{print $3}')
 
 # Write to server
 configure() {
-  cat <<EOF > ./netplan.yml #/etc/netplan/00-installer-config.yaml
+  cat <<EOF > /etc/netplan/00-installer-config.yaml
 network:
     version: 2
     ethernets:
@@ -17,9 +17,14 @@ network:
                 name: $IP_DEVICE
             dhcp4: false
             addresses:
-                - $IP_ADDRESSES
+                - $IP_ADDRESSES/24
             gateway4: $IP_GATEWAY
 EOF
+}
+
+# Apply
+apply() {
+  netplan apply
 }
 # Function invocation
 configure
