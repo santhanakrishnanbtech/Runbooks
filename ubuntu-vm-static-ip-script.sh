@@ -6,7 +6,12 @@ IP_ADDRESSES=$(ip r | grep kernel | awk '{print $9}')
 IP_GATEWAY=$(ip r | grep default | awk '{print $3}')
 IP_DEVICE=$(ip r | grep kernel | awk '{print $3}')
 
-# Write to server
+# backup
+backup(){
+  cp /etc/netplan/00-installer-config.yaml /etc/netplan/00-installer-config.yaml.orig
+}
+
+# configure
 configure() {
   cat <<EOF > /etc/netplan/00-installer-config.yaml
 network:
@@ -22,9 +27,12 @@ network:
 EOF
 }
 
-# Apply
+# apply
 apply() {
   netplan apply
 }
+
 # Function invocation
+backup
 configure
+apply
